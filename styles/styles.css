@@ -16,6 +16,33 @@
   background:  #212832;
 }
 
+.contenText .titleRating{
+  color: #ffffff;
+}
+
+.contenText .textRating{
+  color: #969DA7;
+}
+
+.rating input {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: none;
+  margin: 10px
+}
+
+.btn-rating {
+  width: 100%;
+}
+
+.btn-rating button{
+  width: 100%;
+  border-radius: 5px;
+  border:none;
+  margin: auto;
+}
+
 .attribution { 
   font-size: 11px; text-align: center; 
 }
