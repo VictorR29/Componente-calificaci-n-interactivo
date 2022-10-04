@@ -74,6 +74,45 @@ body {
   cursor: pointer;
 }
 
+.thanksState {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 10px;
+  background:  #212832;
+}
+
+.contenteText .titleThanks{
+  color: #ffffff;
+}
+
+.contenteText .textThanks{
+  color: #969DA7;
+}
+
+.ico {
+  margin: 15px auto;
+}
+
+.ratingSelected {
+  margin: auto;
+  width: 45%;
+  height: 20px;
+  border-radius: 50px;
+  background: #262F38;
+  color: #FC7613;
+  padding: 5px;
+}
+
+.ratingSelected p {
+  margin: auto;
+}
+
+.contenteText {
+  text-align: center;
+}
+
 .attribution { 
   font-size: 11px; text-align: center; 
 }
