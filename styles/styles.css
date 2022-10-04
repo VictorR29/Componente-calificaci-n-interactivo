@@ -43,6 +43,17 @@ body {
   color: #737C8B;
 }
 
+.rating input:hover {
+  background: #7C8898;
+  color: #FCFFFF;
+  cursor: pointer;
+}
+
+.rating input:focus {
+  background: #FC7613;
+  color: #FCFFFF;
+}
+
 .btn-rating {
   margin: 15px;
 }
@@ -55,6 +66,12 @@ body {
   margin: auto;
   background: #FC7613;
   color: #fff;
+}
+
+.btn-rating button:hover {
+  background: #fff;
+  color: #FC7613;
+  cursor: pointer;
 }
 
 .attribution { 
