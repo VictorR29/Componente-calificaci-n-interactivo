@@ -1,5 +1,6 @@
 body {
   font-family: 'Fraunces', serif;
+  background: #141519;
 }
 
 .container {
@@ -81,6 +82,7 @@ body {
   padding: 25px;
   border-radius: 10px;
   background:  #212832;
+  display: none;
 }
 
 .contenteText .titleThanks{
@@ -114,9 +116,12 @@ body {
 }
 
 .attribution { 
-  font-size: 11px; text-align: center; 
+  font-size: 11px; text-align: center;
+  color:#FCFFFF;
+  margin-top: 10px;
 }
 
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  color: #FC7613; 
+  text-decoration: none;
 }
