@@ -1,5 +1,5 @@
 body {
-  font-family: 'Fraunces', serif;
+  font-family: 'Overpass', sans-serif;
   background: #141519;
 }
 
@@ -77,12 +77,11 @@ body {
 
 .thanksState {
   width: 25%;
-  display: flex;
+  display: none;
   flex-direction: column;
   padding: 25px;
   border-radius: 10px;
   background:  #212832;
-  display: none;
 }
 
 .contenteText .titleThanks{
@@ -99,7 +98,6 @@ body {
 
 .ratingSelected {
   margin: auto;
-  width: 45%;
   height: 20px;
   border-radius: 50px;
   background: #262F38;
