@@ -123,3 +123,13 @@ body {
   color: #FC7613; 
   text-decoration: none;
 }
+
+@media (max-width: 500px) {
+  .ratingState, .thanksState {
+    width: 250px;
+  }
+  .btn-rating {
+    margin: 22px auto 0px;
+    width: 100%;
+  }
+}
